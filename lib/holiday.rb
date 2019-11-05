@@ -63,9 +63,9 @@ def all_supplies_in_holidays(holiday_hash)
     p season.to_s.capitalize + ":"
     holiday.each do |literal_holiday, value|
       opperate = literal_holiday.to_s.split("_")
-      opperate.each { |n| n.capitalize }
+      opperate.each { |n| n.capitalize p n.join }
       
-      binding.pry
+      #binding.pry
     end
   end
 end
