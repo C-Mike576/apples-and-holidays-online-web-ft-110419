@@ -65,7 +65,6 @@ def all_supplies_in_holidays(holiday_hash)
       opperate = literal_holiday.to_s.split("_")
       opperate.each do |n|
         n.capitalize
-        n.join
         p n
       end
       
