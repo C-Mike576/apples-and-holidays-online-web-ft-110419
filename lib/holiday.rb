@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
         if opperate.length > 1
           opperate.join
         end
-        p n
+        p opperate
       end
       #binding.pry
     end
