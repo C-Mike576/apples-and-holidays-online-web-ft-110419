@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
       opperate.each do |n|
         n.capitalize!
         if opperate.length > 1
-          n.join
+          opperate.join
         end
         p n
       end
