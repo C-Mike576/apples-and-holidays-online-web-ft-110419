@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
           opperate.join
         end
       end
-      p " #{opperate.join(" ")}: #{value.join(", ")}"
+      print " #{opperate.join(" ")}: #{value.join(", ")}"
     end
   end
 end
