@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
           opperate.join
         end
       end
-      p opperate.join(",")
+      p opperate.join()
     end
   end
 end
