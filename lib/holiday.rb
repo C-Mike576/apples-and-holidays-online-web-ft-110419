@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
     p season.to_s.capitalize + ":"
     holiday.each do |literal_holiday, value|
       opperate = literal_holiday.to_s.split("_")
-      opperate.capitalize.join
+      opperate.capitalize
       p opperate
       binding.pry
     end
